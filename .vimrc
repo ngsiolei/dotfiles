@@ -20,4 +20,8 @@ set expandtab
 set hlsearch
 syntax off
 set background=dark
+set lisp
 autocmd FileType make setlocal noexpandtab
+
+set colorcolumn=80
+highlight colorcolumn ctermbg=darkgray
