@@ -10,8 +10,6 @@ Plugin 'SirVer/ultisnips'
 call vundle#end()
 filetype plugin on
 
-let g:UltiSnipsSnippetsDir="~/.vim/bundle/vim-snippets/UltiSnips"
-
 set number
 set tabstop=2
 set shiftwidth=2
