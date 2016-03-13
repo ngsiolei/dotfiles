@@ -6,6 +6,7 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'SirVer/ultisnips'
+Plugin 'gregsexton/matchtag'
 
 call vundle#end()
 filetype plugin on
