@@ -7,6 +7,7 @@ set hlsearch
 set lisp
 set number
 set relativenumber
+set ruler
 set shiftwidth=2
 set tabstop=2
 set title
