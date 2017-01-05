@@ -11,6 +11,8 @@ set ruler
 set shiftwidth=2
 set tabstop=2
 set title
+set list
+set listchars=tab:▸\ ,trail:·,precedes:←,extends:→
 
 set colorcolumn=80
 highlight colorcolumn ctermbg=darkgray
