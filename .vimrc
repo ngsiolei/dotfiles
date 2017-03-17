@@ -10,11 +10,13 @@ set lisp
 set list
 set listchars=tab:▸\ ,trail:·,precedes:←,extends:→
 set number
+set path+=**
 set relativenumber
 set ruler
 set shiftwidth=2
 set tabstop=2
 set title
+set wildmenu
 
 set colorcolumn=80
 highlight colorcolumn ctermbg=darkgray
@@ -24,7 +26,6 @@ autocmd FileType make setlocal noexpandtab
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'gregsexton/matchtag'
 Plugin 'SirVer/ultisnips'
 Plugin 'pangloss/vim-javascript'
@@ -35,7 +36,6 @@ Plugin 'nbicalcarata/Muon'
 call vundle#end()
 filetype plugin on
 
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 let g:jsx_ext_required=0
 syntax on
 colorscheme muon
