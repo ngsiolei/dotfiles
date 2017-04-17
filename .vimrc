@@ -8,7 +8,7 @@ set expandtab
 set hlsearch
 set lisp
 set list
-set listchars=tab:▸\ ,trail:·,precedes:←,extends:→
+set listchars=tab:▸\ ,trail:·
 set number
 set path+=**
 set relativenumber
@@ -30,8 +30,8 @@ Plugin 'gregsexton/matchtag'
 Plugin 'SirVer/ultisnips'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
-Plugin 'VundleVim/Vundle.vim'
 Plugin 'nbicalcarata/Muon'
+Plugin 'VundleVim/Vundle.vim'
 
 call vundle#end()
 filetype plugin on
