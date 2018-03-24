@@ -10,7 +10,6 @@ set list
 set listchars=tab:▸\ ,trail:·
 set number
 set path+=**
-set relativenumber
 set ruler
 set shiftwidth=2
 set tabstop=2
