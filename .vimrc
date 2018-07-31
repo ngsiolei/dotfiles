@@ -19,8 +19,9 @@ set wildmenu
 set colorcolumn=80
 highlight colorcolumn ctermbg=darkgray
 
-autocmd FileType make setlocal noexpandtab
+autocmd filetype make setlocal noexpandtab
 
 filetype plugin on
 syntax on
 silent! colorscheme muon
+highlight normal ctermbg=black
