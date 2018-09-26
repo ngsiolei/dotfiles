@@ -22,6 +22,5 @@ highlight colorcolumn ctermbg=darkgray
 autocmd filetype make setlocal noexpandtab
 
 filetype plugin on
-syntax on
-silent! colorscheme muon
-highlight normal ctermbg=black
+syntax enable
+silent! colorscheme bnw
