@@ -17,8 +17,10 @@ hi! CursorLine     ctermbg=235 ctermfg=252 cterm=none
 hi! Cursor         ctermbg=000 ctermfg=252 cterm=none
 hi! CursorLineNr   ctermbg=000 ctermfg=252 cterm=none
 hi! DiffAdd        ctermbg=000 ctermfg=010 cterm=none
+hi! DiffAdded      ctermbg=000 ctermfg=010 cterm=none
 hi! DiffChange     ctermbg=000 ctermfg=014 cterm=none
 hi! DiffDelete     ctermbg=000 ctermfg=001 cterm=none
+hi! DiffRemoved    ctermbg=000 ctermfg=001 cterm=none
 hi! DiffText       ctermbg=000 ctermfg=014 cterm=none
 hi! Directory      ctermbg=000 ctermfg=252 cterm=none
 hi! Error          ctermbg=009 ctermfg=015 cterm=none
