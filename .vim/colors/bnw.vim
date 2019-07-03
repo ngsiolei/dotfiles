@@ -10,7 +10,7 @@ endif
 let g:colors_name = 'bnw'
 
 hi! ColorColumn    ctermbg=235 ctermfg=252 cterm=none
-hi! Comment        ctermbg=000 ctermfg=240 cterm=italic
+hi! Comment        ctermbg=000 ctermfg=242 cterm=italic
 hi! Constant       ctermbg=000 ctermfg=252 cterm=none
 hi! CursorColumn   ctermbg=235 ctermfg=252 cterm=none
 hi! CursorLine     ctermbg=235 ctermfg=252 cterm=none
