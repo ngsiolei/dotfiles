@@ -10,6 +10,7 @@ set list
 set listchars=tab:▸\ ,trail:·
 set number
 set path+=**
+set regexpengine=2
 set ruler
 set shiftwidth=2
 set tabstop=2
