@@ -1,0 +1,65 @@
+window:
+  dimensions:
+    columns: 120
+    lines: 40
+  padding:
+    x: 4
+    y: 4
+  decorations: full
+  opacity: 1.0
+scrolling:
+  history: 0
+font:
+  normal:
+    family: Source Code Pro
+    style: Light
+  bold:
+    family: Source Code Pro
+    style: Regular
+  italic:
+    family: Source Code Pro
+    style: Light Italic
+  bold_italic:
+    family: Source Code Pro
+    style: Light Italic
+  size: 18
+  offset:
+    y: 1
+colors:
+  primary:
+    background: '#000000'
+    foreground: '#f4f4f4'
+  normal:
+    black:   '#000000'
+    red:     '#cd0000'
+    green:   '#00cd00'
+    yellow:  '#cdcd00'
+    blue:    '#0000ee'
+    magenta: '#cd00cd'
+    cyan:    '#00cdcd'
+    white:   '#e5e5e5'
+  bright:
+    black:   '#7f7f7f'
+    red:     '#ff0000'
+    green:   '#00ff00'
+    yellow:  '#ffff00'
+    blue:    '#5c5cff'
+    magenta: '#ff00ff'
+    cyan:    '#00ffff'
+    white:   '#ffffff'
+bell:
+  duration: 0
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
+  save_to_clipboard: true
+cursor:
+  style:
+    shape: Block
+  unfocused_hollow: true
+live_config_reload: true
+shell:
+  program: /bin/zsh
+  args:
+    - --login
+mouse:
+  hide_when_typing: true
