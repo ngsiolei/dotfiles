@@ -1,0 +1,96 @@
+live_config_reload = true
+
+[bell]
+duration = 0
+
+[colors.bright]
+black = "#767676"
+blue = "#1a8fff"
+cyan = "#14ffff"
+green = "#23fd00"
+magenta = "#fd28ff"
+red = "#f2201f"
+white = "#ffffff"
+yellow = "#fffd00"
+
+[colors.normal]
+black = "#000000"
+blue = "#0d73cc"
+cyan = "#0dcdcd"
+green = "#19cb00"
+magenta = "#cb1ed1"
+red = "#cc0403"
+white = "#dddddd"
+yellow = "#cecb00"
+
+[colors.primary]
+background = "#000000"
+foreground = "#dddddd"
+
+[cursor]
+unfocused_hollow = true
+
+[cursor.style]
+shape = "Block"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 18
+
+[font.bold]
+family = "Source Code Pro"
+style = "Regular"
+
+[font.bold_italic]
+family = "Source Code Pro"
+style = "Light Italic"
+
+[font.italic]
+family = "Source Code Pro"
+style = "Light Italic"
+
+[font.normal]
+family = "Source Code Pro"
+style = "Light"
+
+[font.offset]
+x = 1
+y = 1
+
+[[keyboard.bindings]]
+chars = "\u001BF"
+key = "Right"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001BB"
+key = "Left"
+mods = "Alt"
+
+[mouse]
+hide_when_typing = true
+
+[scrolling]
+history = 0
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+
+[shell]
+args = ["--login"]
+program = "/bin/zsh"
+
+[window]
+decorations = "full"
+opacity = 1.0
+
+[window.dimensions]
+columns = 100
+lines = 40
+
+[window.padding]
+x = 4
+y = 4
