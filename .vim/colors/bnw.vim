@@ -26,7 +26,6 @@ hi! Directory      ctermbg=000 ctermfg=252 cterm=none
 hi! Error          ctermbg=009 ctermfg=015 cterm=none
 hi! ErrorMsg       ctermbg=009 ctermfg=015 cterm=none
 hi! EndOfBuffer    ctermbg=000 ctermfg=252 cterm=none
-hi! NonText        ctermbg=000 ctermfg=252 cterm=none
 hi! Folded         ctermbg=235 ctermfg=252 cterm=none
 hi! FoldColumn     ctermbg=235 ctermfg=252 cterm=none
 hi! Function       ctermbg=000 ctermfg=252 cterm=none
@@ -35,6 +34,7 @@ hi! Include        ctermbg=000 ctermfg=252 cterm=none
 hi! LineNr         ctermbg=238 ctermfg=252 cterm=none
 hi! MatchParen     ctermbg=023 ctermfg=252 cterm=none
 hi! MoreMsg        ctermbg=000 ctermfg=252 cterm=none
+hi! NonText        ctermbg=000 ctermfg=252 cterm=none
 hi! Normal         ctermbg=000 ctermfg=252 cterm=none
 hi! Operator       ctermbg=000 ctermfg=252 cterm=none
 hi! Pmenu          ctermbg=235 ctermfg=252 cterm=none
@@ -61,6 +61,6 @@ hi! Todo           ctermbg=226 ctermfg=000 cterm=none
 hi! Type           ctermbg=000 ctermfg=252 cterm=none
 hi! Underlined     ctermbg=none ctermfg=none cterm=underline
 hi! VertSplit      ctermbg=238 ctermfg=238 cterm=none
-hi! Visual         ctermbg=235 ctermfg=252 cterm=none
+hi! Visual         ctermbg=238 ctermfg=252 cterm=none
 hi! WarningMsg     ctermbg=202 ctermfg=000 cterm=none
 hi! WildMenu       ctermbg=000 ctermfg=252 cterm=none
