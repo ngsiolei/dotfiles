@@ -10,7 +10,7 @@ endif
 let g:colors_name = 'amber'
 
 hi! ColorColumn    ctermbg=235 ctermfg=214 cterm=none
-hi! Comment        ctermbg=000 ctermfg=242 cterm=italic
+hi! Comment        ctermbg=000 ctermfg=245 cterm=italic
 hi! Constant       ctermbg=000 ctermfg=214 cterm=none
 hi! CursorColumn   ctermbg=208 ctermfg=000 cterm=none
 hi! CursorLine     ctermbg=208 ctermfg=000 cterm=none
@@ -26,7 +26,6 @@ hi! Directory      ctermbg=000 ctermfg=214 cterm=none
 hi! Error          ctermbg=009 ctermfg=015 cterm=none
 hi! ErrorMsg       ctermbg=009 ctermfg=015 cterm=none
 hi! EndOfBuffer    ctermbg=000 ctermfg=214 cterm=none
-hi! NonText        ctermbg=000 ctermfg=214 cterm=none
 hi! Folded         ctermbg=235 ctermfg=214 cterm=none
 hi! FoldColumn     ctermbg=235 ctermfg=214 cterm=none
 hi! Function       ctermbg=000 ctermfg=214 cterm=none
@@ -35,6 +34,7 @@ hi! Include        ctermbg=000 ctermfg=214 cterm=none
 hi! LineNr         ctermbg=238 ctermfg=215 cterm=none
 hi! MatchParen     ctermbg=214 ctermfg=000 cterm=none
 hi! MoreMsg        ctermbg=000 ctermfg=214 cterm=none
+hi! NonText        ctermbg=000 ctermfg=214 cterm=none
 hi! Normal         ctermbg=000 ctermfg=214 cterm=none
 hi! Operator       ctermbg=000 ctermfg=214 cterm=none
 hi! Pmenu          ctermbg=235 ctermfg=214 cterm=none
