@@ -2,6 +2,7 @@ set background=dark
 set colorcolumn=80
 set expandtab
 set hlsearch
+set linebreak
 set lisp
 set list
 set listchars=tab:▸\ ,trail:·
