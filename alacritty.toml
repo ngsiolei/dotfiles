@@ -8,7 +8,7 @@ cyan = "#14ffff"
 green = "#23fd00"
 magenta = "#fd28ff"
 red = "#f2201f"
-white = "#ffffff"
+white = "#eeeeee"
 yellow = "#fffd00"
 
 [colors.normal]
@@ -18,12 +18,12 @@ cyan = "#0dcdcd"
 green = "#19cb00"
 magenta = "#cb1ed1"
 red = "#cc0403"
-white = "#dddddd"
+white = "#bbbbbb"
 yellow = "#cecb00"
 
 [colors.primary]
 background = "#000000"
-foreground = "#dddddd"
+foreground = "#bbbbbb"
 
 [cursor]
 unfocused_hollow = true
@@ -35,23 +35,23 @@ shape = "Block"
 TERM = "xterm-256color"
 
 [font]
-size = 18
+size = 22
 
 [font.bold]
-family = "Source Code Pro"
+family = "Comic Shanns"
 style = "Regular"
 
 [font.bold_italic]
-family = "Source Code Pro"
-style = "Light Italic"
+family = "Comic Shanns"
+style = "Regular"
 
 [font.italic]
-family = "Source Code Pro"
-style = "Light Italic"
+family = "Comic Shanns"
+style = "Regular"
 
 [font.normal]
-family = "Source Code Pro"
-style = "Light"
+family = "Comic Shanns"
+style = "Regular"
 
 [font.offset]
 x = 1
@@ -82,7 +82,7 @@ args = ["--login"]
 program = "/bin/zsh"
 
 [window]
-decorations = "full"
+decorations = "Full"
 opacity = 1.0
 
 [window.dimensions]
