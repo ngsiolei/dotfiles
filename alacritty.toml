@@ -18,12 +18,12 @@ cyan = "#0dcdcd"
 green = "#19cb00"
 magenta = "#cb1ed1"
 red = "#cc0403"
-white = "#bbbbbb"
+white = "#d0d0d0"
 yellow = "#cecb00"
 
 [colors.primary]
 background = "#000000"
-foreground = "#bbbbbb"
+foreground = "#d0d0d0"
 
 [cursor]
 unfocused_hollow = true
